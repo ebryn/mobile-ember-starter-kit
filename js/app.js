@@ -14,7 +14,7 @@ Ember.run.backburner.options.onEnd = function() {
 
   if (diff < 2) { return; } // filter out runloops faster than 2ms
 
-  console.log(Ember.VERSION + ' runloop: ' + diff.toFixed(2) + ', since start: ' + (now - START_TIME));
+  console.log('runloop finished in ' + diff + 'ms at ' + (now - START_TIME) + 'ms');
 };
 
 App = Ember.Application.create();
