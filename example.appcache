@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# Version 1
+
+CACHE:
+js/libs/jquery-2.1.2pre-custom.min.js
+js/libs/handlebars.runtime-v1.3.0.min.js
+js/libs/ember-1.5.1.min.js
+js/app.js
+app-icons/icon-128.png
+
+FALLBACK:
+# This will enable imagename4.png to be as a replacement for
+# all resources under the images dir when there is no network connectivity.
+# images/ images/imagename4.png
+
+NETWORK:
+# This will prevent other network resources from being accessed.
+# images/imagename5.png
