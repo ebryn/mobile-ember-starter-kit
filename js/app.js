@@ -19,3 +19,8 @@ Ember.run.backburner.options.onEnd = function() {
 
 App = Ember.Application.create();
 
+Ember.TEMPLATES.application = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+  helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  data.buffer.push("<h2 id='title'>Welcome to Ember.js</h2>");
+});
